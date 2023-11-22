@@ -1,0 +1,16 @@
+.add-btn {
+    background-color: #000;
+    height: 45px;
+    width: 160px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+}
+
+.add-btn button{
+    border: none;
+    color: #fff;
+    background-color: #000;
+}
