@@ -75,6 +75,9 @@ const ProductTable = ({ products }) => {
             title: 'Price',
             dataIndex: 'price',
             key: 'price',
+            render: (text, record) => {
+                return `$${record.price.toFixed(2)}`
+            }
         },
         {
             title: 'Action',
